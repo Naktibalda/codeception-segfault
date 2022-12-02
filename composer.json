@@ -2,16 +2,11 @@
     "name": "naktibalda/codeception-segfault",
     "description": "Reproduction of xdebug segmentation fault error caused by symfony/console",
     "type": "project",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "codeception/codeception": "5.0.5",
-        "phpunit/phpunit": "10.0.x-dev as 9.99.99",
-        "phpunit/php-code-coverage": "10.0.x-dev as 9.99.99",
-        "phpunit/php-text-template": "3.0.x-dev as 2.99.99",
-        "phpunit/php-timer": "6.0.x-dev as 5.99.99",
-        "sebastian/comparator": "5.0.x-dev as 4.99.99",
-        "sebastian/diff": "5.0.x-dev as 4.99.99",
-        "symfony/console": "6.2.0-BETA3",
-        "codeception/module-asserts": "*"
+        "codeception/module-asserts": "*",
+        "phpunit/phpunit": "9.5.26",
+        "symfony/console": "v5.4.16"
     }
 }
